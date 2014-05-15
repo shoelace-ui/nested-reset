@@ -1,0 +1,33 @@
+{
+  "name": "nested-reset",
+  "version": "0.0.1",
+  "description": "nested-reset opaque mixin",
+  "main": "index.styl",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shoelace-ui/nested-reset"
+  },
+  "keywords": [
+    "nested",
+    "reset",
+    "stylus",
+    "nib",
+    "shoelace-ui"
+  ],
+  "author": "Brannon Lucas <brannonlucas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shoelace-ui/nested-reset/issues"
+  },
+  "homepage": "https://github.com/shoelace-ui/nested-reset",
+  "dependencies": {
+    "reset-box-model": "git://github.com/shoelace-ui/reset-box-model.git",
+    "reset-table": "git://github.com/shoelace-ui/reset-table.git",
+    "reset-table-cell": "git://github.com/shoelace-ui/reset-table-cell.git",
+    "font-reset": "git://github.com/shoelace-ui/reset-font.git",
+    "reset-font": "git://github.com/shoelace-ui/reset-font.git"
+  }
+}

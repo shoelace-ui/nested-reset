@@ -1,0 +1,23 @@
+/*
+ * `nested-reset` opaque mixin
+ * @mixin
+ */
+
+@require('../node_modules/reset-font/index')
+@require('../node_modules/reset-box-model/index')
+@require('../node_modules/reset-table/index')
+@require('../node_modules/reset-table-cell/index')
+
+nested-reset()
+  div, span, object, iframe, h1, h2, h3, h4, h5, h6, p,
+  pre, a, abbr, acronym, address, code, del, dfn, em, img,
+  dl, dt, dd, ol, ul, li, fieldset, form, label,
+  legend, caption, tbody, tfoot, thead, tr
+    reset-box-model()
+    reset-font()
+  table
+    reset-table()
+  caption, th, td
+    reset-table-cell()
+  a img
+    border: none
