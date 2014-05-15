@@ -27,6 +27,6 @@
     "shoelace-ui-reset-box-model": "git://github.com/shoelace-ui/reset-box-model.git",
     "shoelace-ui-reset-table": "git://github.com/shoelace-ui/reset-table.git",
     "shoelace-ui-reset-table-cell": "git://github.com/shoelace-ui/reset-table-cell.git",
-    "shoelace-ui-reset-font": "git://github.com/shoelace-ui/reset-font.git",
+    "shoelace-ui-reset-font": "git://github.com/shoelace-ui/reset-font.git"
   }
 }
