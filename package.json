@@ -1,5 +1,5 @@
 {
-  "name": "nested-reset",
+  "name": "shoelace-ui-nested-reset",
   "version": "0.0.1",
   "description": "nested-reset opaque mixin",
   "main": "index.styl",
@@ -24,10 +24,9 @@
   },
   "homepage": "https://github.com/shoelace-ui/nested-reset",
   "dependencies": {
-    "reset-box-model": "git://github.com/shoelace-ui/reset-box-model.git",
-    "reset-table": "git://github.com/shoelace-ui/reset-table.git",
-    "reset-table-cell": "git://github.com/shoelace-ui/reset-table-cell.git",
-    "font-reset": "git://github.com/shoelace-ui/reset-font.git",
-    "reset-font": "git://github.com/shoelace-ui/reset-font.git"
+    "shoelace-ui-reset-box-model": "git://github.com/shoelace-ui/reset-box-model.git",
+    "shoelace-ui-reset-table": "git://github.com/shoelace-ui/reset-table.git",
+    "shoelace-ui-reset-table-cell": "git://github.com/shoelace-ui/reset-table-cell.git",
+    "shoelace-ui-reset-font": "git://github.com/shoelace-ui/reset-font.git",
   }
 }
