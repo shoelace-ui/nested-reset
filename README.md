@@ -1,11 +1,13 @@
 # nested-reset
-`nested-reset` opaque mixin
 
-## Installation
-```sh
-$ npm install git://github.com/shoelace-ui/nested-reset.git
+nested-reset opaque mixin
+
+## Usage
+
+```stylus
+@require 'shoelace-ui-nested-reset'
 ```
 
 ## License
 
-[MIT](./LICENSE)
+MIT
