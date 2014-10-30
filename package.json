@@ -1,15 +1,14 @@
 {
   "name": "shoelace-ui-nested-reset",
-  "version": "0.0.1",
+  "version": "0.1.2",
   "description": "nested-reset opaque mixin",
-  "main": "index.styl",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "author": "Brannon Lucas <brannonlucas@gmail.com>",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git://github.com/shoelace-ui/nested-reset"
   },
+  "homepage": "https://github.com/shoelace-ui/nested-reset",
   "keywords": [
     "nested",
     "reset",
@@ -17,16 +16,13 @@
     "nib",
     "shoelace-ui"
   ],
-  "author": "Brannon Lucas <brannonlucas@gmail.com>",
-  "license": "MIT",
+  "dependencies": {
+    "shoelace-ui-reset-box-model": "^0.1.0",
+    "shoelace-ui-reset-table": "^0.1.0",
+    "shoelace-ui-reset-table-cell": "^0.1.0",
+    "shoelace-ui-reset-font": "^0.1.0"
+  },
   "bugs": {
     "url": "https://github.com/shoelace-ui/nested-reset/issues"
-  },
-  "homepage": "https://github.com/shoelace-ui/nested-reset",
-  "dependencies": {
-    "shoelace-ui-reset-box-model": "git://github.com/shoelace-ui/reset-box-model.git",
-    "shoelace-ui-reset-table": "git://github.com/shoelace-ui/reset-table.git",
-    "shoelace-ui-reset-table-cell": "git://github.com/shoelace-ui/reset-table-cell.git",
-    "shoelace-ui-reset-font": "git://github.com/shoelace-ui/reset-font.git"
   }
 }
